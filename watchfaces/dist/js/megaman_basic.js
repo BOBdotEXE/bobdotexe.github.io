@@ -32,7 +32,7 @@ function getAndStoreConfigData() {
   var $vib = $('#vib');
   var $fast = $('#fast');
   var $med = $('#med');
-  var $slow = $('#fast');
+  var $slow = $('#slow');
 
   var options = {
 	vib: $vib[0].checked,
