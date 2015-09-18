@@ -23,7 +23,7 @@ function loadOptions() {
   if (localStorage.vib) {
     $vib[0].checked = localStorage.vib === 'true';
 	$fast[0].checked = localStorage.fast === 'true'
-	$med[0].checked=localStorage.med === 'true';
+	$med[0].checked = localStorage.med === 'true';
     $slow[0].checked = localStorage.slow === 'true';
   }
 }
@@ -35,7 +35,7 @@ function getAndStoreConfigData() {
   var $slow = $('#fast');
 
   var options = {
-	vib: $vib[0].checked
+	vib: $vib[0].checked,
     fast: $fast[0].checked,
 	med: $med[0].checked,
 	slow: $slow[0].checked,
