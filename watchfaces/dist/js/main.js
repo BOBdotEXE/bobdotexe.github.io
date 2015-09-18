@@ -35,10 +35,11 @@ function getAndStoreConfigData() {
   var $slow = $('#fast');
 
   var options = {
+	vib: $vib[0].checked
     fast: $fast[0].checked,
 	med: $med[0].checked,
 	slow: $slow[0].checked,
-    vib: $vib[0].checked
+    
   };
 
   localStorage.vib = options.vib;
